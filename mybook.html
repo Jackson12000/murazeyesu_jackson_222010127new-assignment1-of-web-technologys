@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Technology </title>
+
+</head>
+<body bgcolor="white">
+<html>
+<head>
+	<title>My Book</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+<body bgcolor="orange">
+    <p>
+    	<center>
+    	<ul style="list-style-type: none;  padding: 0;">
+        <li style="display: inline;  margin-right: 10px"><a href="./home.html" 
+
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">HOME</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./about.html" 
+
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">ABOUT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./contact.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">CONTACT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./services.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">SERVICES</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./form.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">FORM</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./table.html" 
+            style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">TABLE</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./mybook.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">MYBOOK</a></li>
+    </ul></center>
+
+	</p>
+	<h1>TOURISM MANAGEMENT SYSTEM</h1>
+	<ol><h2><u><li>DATABASE</li></u></h2>
+		<p>Database name used: <b>tourist_management_system.</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+			<ol><li><b>Tourist Table</b></li>
+
+			<p>
+			The tourist table in a tourist management system typically stores information about tourists,
+			 including their personal details, travel preferences, booking history, and any other relevant data for
+			  managing their interactions and experiences with the tourism service.
+           </p></br>
+
+			<li><b>Transport Table</b></li>
+
+			<p>The transport table in a tourist management system contains information about transportation services available for tourists, such as schedules, routes, vehicle details, availability, and reservations.</p> </br>
+
+
+			<li><b>Accommodation Table</b></li>
+
+			<p>
+				
+            The accommodation table in a tourist management system stores details about lodging options, including room types, availability, pricing, amenities, reservations, and guest preferences.
+			</p></br>
+
+			<li><b>Payment Table</b></li>
+
+			<p>To represent payment information in a database, you would create a payment entity with various attributes that describe the details of each payment.</p></br>
+
+            <li><b>Employees Table</b></li>
+
+			<p>Employee ID (Primary Key): This attribute serves as a unique identifier for each employee or staff member in the system.</p></br>
+
+			              <h3><u><i><li>Attributes</li></i></u></h3>
+			       <ol type="a"><li><b>Attributes of Tourist Table</b></li></br>
+    Here are the descriptions or purposes of the attributes/columns used in Tourist table:</br>
+
+    <ol type="i"><li><p><b><i>tourist_Id:</i></b> The column which are represents  id of tourist which is unique value called PRIMARY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+   AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of tourist table.</br></p></li>
+
+    <li><p><b><i>FirstName:</i></b> The columns which are represents first name and last name of user.</br></p></li> 
+
+    <li><p><b><i>LastName:</i></b> The column which are represents telephone number of user.</br></p></li>
+
+
+   <li><p><b><i>Email:</i></b> The column which are represents Email of given user.</br></p></li>
+  <li><p><b><i>Telephone:</i></b> The column which are represents telephone number in tourist table.</br></p></li>
+
+    <li><p><b><i>Nationality:</i></b> The column which are represents  their citizen or nation in tourist table.</br></p></li></ol>
+
+
+                    <li><b>Attributes of Transport Table</b></li></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in transport table:</br>
+
+
+<ol type="i"><li><p><b><i>transport_Id:</i></b> The column which are represents  id of transport which is unique value called PRIMARY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of tansport table.</br></p></li>
+
+<li><p><b><i>TouristTelephone:</i></b> The column which are represents phone number of tourist in transport table.</p></br></li>
+
+<li><p><b><i>touristEmail:</i></b> The column which are represents email of tourist in trasport table with tourism system.</br></p></li>
+<li><p><b><i>TouristResidental:</i></b> The column which are represents residental of tourist in transport table.</br></p></li>
+<li><p><b><i>TransportCompanyName:</i></b> The column which are represents transport name in transport table.</br></p></li>
+
+<li><p><b><i>TimeArrival:</i></b> The columns which are represents  time arrive of tourist in transport table.</br></p></li></ol>
+
+
+                    <li><b>Attributes of Accommodation Table</b></li></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in Supplier table:</br>
+
+
+
+<ol type="i"><li><p><b><i>Supplier_Id:</i></b> The column which are represents  id of  accommodation which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of accommodation table.</p></br></li>
+
+<li><p><b><i>Residental:</i></b> The column which are represents residental of tourist in accommodation table.</p></br></li>
+
+<li><p><b><i>TouristEmail:</i></b> The column which are represents tourist email in accommodation table.</p></br></li>
+
+<li><p><b><i>Gender:</i></b> The column which are represents female and male in accommodation table.</p></br></li>
+
+
+<li><p><b><i>Room:</i></b> The column which are represents flow1 and flow2 in accommodation table.</p></br></li>
+
+
+
+
+<li><b>Attributes of Payment Table</b></li></br>
+
+Here are the descriptions or purposes of the attributes/columns used in payment table:</br>
+
+<ol type="i"><li><p><b><i>payment_Id:</i></b> The column which are represents  id of  payment  which is unique value called PRIMARY KEY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of payment table.</p></br></li>
+
+
+<li><p><b><i>PaymentMethod:</i></b> The column which are represents payment method in payment table  . </p></br></li>
+
+<li><p><b><i>paymentAmount:</i></b> The column which are represents payment amount in payment table.</p></br></li> 
+
+<li><p><b><i>PaymentDate:</i></b> The column which are represents payment date in payment table</p></br></li>
+
+<li><p><b><i>TouristEmail:</i></b> The column which are represents  tourist Email in payment table.</p></br></li>
+<li><p><b><i>TouristName:</i></b> The column which are represents  tourist Names in payment table.</p></br></li> 
+</ol>
+
+
+<li><b>Attributes of Employees Table</b></li></br>
+
+Here are the descriptions or purposes of the attributes/columns used in Employees table:</br>
+
+
+<ol type="i"><li><p><b><i>employees_Id:</i></b> The column which are represents  id of  employees  which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Customers  table.</p></br></li>
+
+
+<li><p><b><i>FirstName:</i></b> The column which are represents  firstnaname of employees in tourism management</p></br></li>
+
+<li><p><b><i>LastName:</i></b> The column which are represents  the last name of  the employees table.</p></br></li>
+
+<li><p><b><i>Position:</i></b> The column which are represents title of each employees.</p></br></li>
+<li><p><b><i>Email:</i></b> The column which are represents  the email of customer.</p></br></li>
+
+<li><p><b><i>Phone_Number:</i></b> The column which are represents telephone number of customer.</p></br></li></ol>
+                    
+
+        
+		<h2><u><li>JAVA PROGRAMMING</li></u></h2>
+		
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			  <b>Introduction</b><br>
+ <p>In this chapter I will be describing how powerful generalpurpose programming language was used to create the analyzed system. Under this chapter I will undergo full detail of how everything will function together with database that have been describe above and how it cope with full analyzed system.</p><br>
+ 
+	<b>Tools used to develop this system in java programming</b><br>
+
+<ol type="a"><li><p><b>Eclipse IDE:</b> an integrated development environment used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment. It is the second-most-popular IDE for Java development, and was the most popular. </p><br></li>
+
+<li><p><b>JAR stands for Java Archive:</b>  It's a file format based on the popular ZIP file format and is used for aggregating many files into one. Although JAR can be used as a general archiving tool, the primary motivation for its development was so that Java applets and their requisite components. </p><br></li></ol>
+
+<img src="re.jpg" width=1000 height=500><br><br>
+
+
+
+
+
+<p><b>MySQL Connectors:</b> MySQL provides standards-based drivers for JDBC, ODBC, and .Net enabling developers to build database applications in their language.</p><br>
+
+
+
+			              <h3><u><i><li>Forms and Images</li></i></u></h3>
+
+<ol type="I"><li><b><h4>Tourist Form</h4></b></br>
+<img src="tourist.jpg" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>Accommodation Form</h4></b></br>
+<img src="accommodation.jpg" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>Transpotr Form</h4></b></br>
+<img src="transport.jpg" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>Payment Form</h4></b></br>
+<img src="payment.jpg" width=900 height=300><br><br><br><br><br>
+
+<li><b><h4>Employees Form</h4></b></br>
+<img src="employees.jpg" width=900 height=300><br><br><br><br><br>
+</li></ol>
+
+</ul>
+		
+	</ol>
+	<marquee><u><i><h2 style="color: white;">Prepared By</i></u>: IRADUKUNDA Jean Nepomuscene</h2></marquee>
+	</body>
+	</html>
+</body>
+</html>
